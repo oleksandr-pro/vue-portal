@@ -1,0 +1,83 @@
+// card program
+card program integrated (100%)
+Bureau Inst Code or CARD PRINTER CODE
+
+
+// reseller
+reseller integrated (100%)
+
+assumed pct == percentage
+roof == load fee Cap
+for order splited into two cat. fees and meta data
+
+// float balance
+-> currently i merge both in review and pending floats into on collection
+-> app use odd schema /v1/business/floataccounts/overview  floatAccountsOverview
+    pageMeta  "pageMeta": {
+                 "links": [
+                   {
+                     "deprecation": "string",
+                     "href": "string",
+                     "hreflang": "string",
+                     "media": "string",
+                     "rel": "string",
+                     "templated": true,
+                     "title": "string",
+                     "type": "string"
+                   }
+                 ],
+                 "numberOfPageElements": 0,
+                 "perPage": 0,
+                 "totalPages": 0
+               },
+
+
+   view data     "viewFloatResultList": [
+                   {
+                     "amount": 0,
+                     "cardProgCode": "string",
+                     "currency": "EUR",
+                     "floatAccountType": "string",
+                     "hasPendingDebitOrCredit": true,
+                     "resellerCode": "string",
+                     "resellerName": "string",
+                     "resellerStatus": "string"
+                   }
+                 ]
+             -> view data is used to view all floats and there is single view for floats(pending , viewed)
+
+
+ pending => reviewed
+    "submitDate": "string", => reviewDate
+    "submitUser": "string" => reviewUser
+    reviewed has comment field
+put request schema /v1/business/floats/{floatId} updateFloatAccountEntryStatus
+    {
+      "comment": "string",
+      "id": "string",
+      "reason": "string",
+      "status": "PENDING"
+    }
+
+VIEW STATMENT API IS DOWN
+
+
+{
+  "amount": 200,
+  "cardProgId": "497e939e-0732-11e9-8bbb-5f1bd7111eed",
+  "currency": "EUR",
+  "entryDesc": "SWIFT Load Ref#1234",
+  "entryType": "CREDIT",
+  "resellerId": "4989f0ae-0732-11e9-8bbb-e3773fc248ee"
+}
+{
+"amount":"251"
+"cardProgId":"4972eb3e-0732-11e9-8bbb-bf54513fdea6",
+"currency":"EUR",
+"entryDesc":"ASDF ASDF",
+"entryType":"CREDIT",
+"resellerId":"4989f0ae-0732-11e9-8bbb-e3773fc248ee",
+
+
+
+}

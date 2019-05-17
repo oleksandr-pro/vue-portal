@@ -1,0 +1,25 @@
+float account
+invoices api
+can't be handled now
+
+float approval
+get edit add floats (50% )
+
+add float
+post ? post softdoc! :
+
+need to handle soft docs
+can be implemented now
+
+--------------------------
+review debit
+approve debit
+
+
+single view will handle editing &uploading & creating new  floats
+editng upload =true
+createing upload =false
+viewing view soft docs
+
+// integrations
+1_resel

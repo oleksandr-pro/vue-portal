@@ -1,0 +1,41 @@
+ABA INTEGRATION STATE
+*CARD PROGRAM (DONE)
+ -create
+ -view list
+ -card program single view
+ -edit reseller
+ ---------------------------
+ *RESELLER(DONE)
+  -create
+  -view list
+  -view single reseller
+  -update reseller
+
+  ----------------------------
+  * FLOAT ACCOUNT
+   API
+       1-query params there is no ui elements for choosing the currency code ,page size,page num
+       2- api response has metadata (links,numberOfPageElements,perPage...) how to handle it?
+       3-according to ui prototype creating float entry expect soft doc while -> /v1/business/cardprograms/{id}/floats
+       only can handle only json data without returning float id to upload the file on success using   -> /v1/business/floats/{floatId}/sofdocs
+
+
+    UI
+       1- Currently ,list -view for View Float Account/Invoice- represents merged data for both pending and review floats both on the same view
+
+
+
+     * INVOICES
+     API
+        1- save as FLOAT ACCOUNT missing ui elements for handling currency_code,pag_num ...
+        2- same as FLOAT ACCOUNT handling metadata numberOfPageElements etc..
+     UI
+         1-missing views for generating and viewing generated invoices
+
+//
+
+
+
+
+
+

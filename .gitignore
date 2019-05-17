@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+dist/
+.idea/
+npm-debug.log
+yarn-error.log
+
+storybook-static/
+test/unit/coverage/
+/bootstrap.min.css

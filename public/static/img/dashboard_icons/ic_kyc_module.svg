@@ -1,0 +1,31 @@
+<svg id="Group_1" data-name="Group 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        opacity: 0;
+      }
+    </style>
+  </defs>
+  <g id="Group_738" data-name="Group 738">
+    <g id="Group_737" data-name="Group 737">
+      <g id="Group_735" data-name="Group 735">
+        <path id="Path_669" data-name="Path 669" class="cls-1" d="M22.19,9.98a4.95,4.95,0,1,1-1.21-.73"/>
+      </g>
+      <g id="Group_736" data-name="Group 736">
+        <path id="Path_670" data-name="Path 670" class="cls-1" d="M12,29.14V23.19a1.878,1.878,0,0,1,1.88-1.88H16l3.23,3.23,3.23-3.23,1.79.01a1.878,1.878,0,0,1,1.88,1.88v5.95"/>
+      </g>
+    </g>
+  </g>
+  <g id="Group_739" data-name="Group 739">
+    <path id="Path_671" data-name="Path 671" class="cls-1" d="M29.81,7.62a15.37,15.37,0,1,1-2.83-1.97"/>
+    <line id="Line_222" data-name="Line 222" class="cls-1" x1="8.24" y1="8.24" transform="translate(30.1 30.47)"/>
+  </g>
+  <rect id="Rectangle_358" data-name="Rectangle 358" class="cls-2" width="40" height="40" transform="translate(1 1)"/>
+</svg>
